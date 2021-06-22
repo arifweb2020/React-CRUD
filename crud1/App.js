@@ -9,7 +9,6 @@ import ResSearch from './components/ResSearch';
 import ResUpdate from './components/ResUpdate';
 import Nav from './components/Nav';
 import Notfound from './components/Notfound';
-import Login from './components/Login';
 
 function App() {
 
@@ -24,7 +23,6 @@ function App() {
   <Route path="/create" component={ResCreate}/>
   <Route path="/search" component={ResSearch}/>
   <Route path="/details" component={ResDetails}/>
-  <Route path="/login" component={Login}/>
   <Route path="/update/:id" component={ResUpdate}/>
   <Route component={Notfound}/>
   </Switch>
